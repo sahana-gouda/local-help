@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+<link rel="stylesheet" href="register.css">
+</head>
+<body>
+    
+
+<section id="Register"  name="register" class="section">
+    <div class="container">
+       <form  id="register_form" method="post" class="registration-form">
+        <div class="form-group">
+            <label for="name"> Full Name</label>
+            <input type="text" id="name" name="name" placeholder="enter your full name" required>
+         </div>
+         <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="number" id="phone" name="phone" placeholder="enter your phone number" required>
+         </div>
+         <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type ="mail" id="email" name="email" placeholder="enter your email-address" required>
+         </div>
+         <div class ="form-group">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="create a password" required>
+         </div>
+         <div class="form-group">
+            <label for="confirm-password">confirm password</label>
+            <input type="password" id="confirm-password" name="confirm-password" placeholder="confirm your password" required>
+         </div>
+         <div class="form-group">
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender">
+                <option value="#">Select gender</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Others">Others</option>
+                <option value="Prefer not to say">Prefer not to say</option>
+            </select>
+         </div>
+         
+         <div class="form-group">
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+          </div>
+         <div class="form-group">
+            <label for="Address">enter your address</label>
+            <input type ="address" id="address" name="address" placeholder="enter your address" required>
+         </div>
+        
+         <div class="form-group">
+            <button type="submit" class="btn">Register</button>
+         </div>
+         <ul id="userList"></ul>
+   </div>
+       </form>
+</section>
+
+<script src="Register.js">
+</script>
+
+</body>
+</html>
