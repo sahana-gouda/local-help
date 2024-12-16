@@ -1,0 +1,29 @@
+header{
+ background-color:rgb(15, 15, 15) ;
+ color: azure;
+ 
+}
+header img{
+    display: flex;
+    margin-bottom:70px ;
+}
+
+header h1{
+    color: aquamarine;
+    text-align: center;
+}
+
+.container ul{
+    text-decoration:none;
+    list-style-type:none;
+    color: white;
+    justify-content: center;
+    display: flex;
+
+}
+.container ul li{
+   margin: 0 50px; 
+}
+.container ul li a{
+    text-decoration:none;   
+}
